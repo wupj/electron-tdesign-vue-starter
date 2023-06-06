@@ -42,7 +42,7 @@ export default ({ mode }) => {
           entry: 'electron/main/index.ts', // 主进程文件
         },
         preload: {
-          input: path.join(__dirname, 'electro/preload/index.ts'), // 预加载文件
+          input: path.join(__dirname, 'electron/preload/index.ts'), // 预加载文件
         },
       }),
     ],
